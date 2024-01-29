@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #main {
+    text-align: center;
+    width: 100%;
+    padding-top: 30% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
+    padding: 5%;
+  }
+  #insideDiv {
+    background-color: #ffff;
+    border-radius: 23px;
+    padding-top: 40% !important;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url(/img/back.svg)
+    
+  }
+  button{
+    border: none;
+    background: #FFFF;
+  }
+  h1 {
+    color: #1e1f36;
+  
+    font-family: "Kumbh Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  #LineDiv {
+    width: 100%;
+    height: 1px;
+    background-color: #e8e8ea;
+  }
+  #spanDiv {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+    width: 19rem;
+  }
+  #alwaysSpan {
+    color: #4b4c5f;
+    text-align: start;
+    font-family: "Kumbh Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #noneSpan {
+    color: #787887;
+    text-align: start;
+    font-family: "Kumbh Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+  }
+  #fixDiv{
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  #imgDiv{
+      position: absolute;
+      top: -13.5%;
+  }
+  #noneSpan{
+    display: ;
+  }
+  #textDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .laptopCube{
+    display: none;
+  }
+  .laptopImg{
+    display: none;
+  }
+  #noneSpan{
+    display: none;
+  }
+  #alwaysSpan:hover{
+    color: #F47B56;
+  }
+  i{
+    color: #F47B56;
+  }
+  #flipI{
+    display: none;
+  }
+  
+  @media(width > 700px){
+    #main{
+        height: 100vh;
+        padding-top: 0px !important;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #insideDiv{
+        flex-direction: row;
+        padding-top: 0px !important;
+        padding-left: 0 !important;
+        background-image: url(/img/pcbackground.svg);
+        background-position: left;
+    }
+    #imgDiv{
+        position: relative;
+        top: 20%;
+    }
+    .mobileImg{
+        display: none;
+    }
+    .laptopCube{
+        display: block;
+        position: absolute;
+        left: -20%;
+        top: 30%;
+    }
+    .laptopImg{
+        display: block;
+    }
+    h1{
+        text-align: start;
+    }
+    #noneSpan{
+        display: none;
+    }
+    #textDiv{
+        padding-top: 5%;
+    }
+  }
+    
